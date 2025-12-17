@@ -76,7 +76,7 @@ const Navbar = () => {
                       {
                         title: "Wells Fargo",
                         description: "Solutions for Wells Fargo",
-                        href: "https://wellsfargo.futeurcredx.com",
+                        href: "https://wells-fargo.futeurcredx.com",
                       },
                       {
                         title: "Citibank",
