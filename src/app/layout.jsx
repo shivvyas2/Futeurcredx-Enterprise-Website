@@ -7,8 +7,8 @@ import Footer from "@/common/component/element/Footer";
 const plusj = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Fusion",
-  description: "Fusion SaaS Landing Page",
+  title: "Futeurcredx for Enterprise",
+  description: "Enterprise Solutions by Futeurcredx",
 };
 
 export default function RootLayout({ children }) {
@@ -29,3 +29,4 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
