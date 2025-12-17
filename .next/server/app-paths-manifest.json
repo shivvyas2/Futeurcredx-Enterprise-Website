@@ -1,0 +1,9 @@
+{
+  "/not-found": "app/not-found.js",
+  "/products/fintechs/about/page": "app/products/fintechs/about/page.js",
+  "/page": "app/page.js",
+  "/products/fintechs/page": "app/products/fintechs/page.js",
+  "/products/fintechs/how-it-works/page": "app/products/fintechs/how-it-works/page.js",
+  "/products/fintechs/risk-and-control/page": "app/products/fintechs/risk-and-control/page.js",
+  "/products/fintechs/outcomes/page": "app/products/fintechs/outcomes/page.js"
+}

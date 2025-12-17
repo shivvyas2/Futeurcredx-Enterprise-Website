@@ -67,6 +67,32 @@ const Navbar = () => {
                     description: "Enterprise solutions for banking institutions",
                     href: "/products/banks",
                     icon: "/NavbarIcons/Bank.svg",
+                  },
+                  {
+                    title: "For Fintechs",
+                    description: "Infrastructure for fintech platforms",
+                    href: "/products/fintechs",
+                    icon: "/NavbarIcons/Fintech.svg",
+                  },
+                ],
+              },
+            ]}
+            pathname={pathname}
+          />
+
+          {/* Use Cases Dropdown */}
+          <NavDropdown
+            title="Use Cases"
+            showCategories={true}
+            items={[
+              {
+                category: "Use Cases",
+                subItems: [
+                  {
+                    title: "For Banks",
+                    description: "Banking use cases and solutions",
+                    href: "/use-cases/banks",
+                    icon: "/NavbarIcons/Bank.svg",
                     nestedItems: [
                       {
                         title: "Chase",
@@ -86,57 +112,9 @@ const Navbar = () => {
                     ],
                   },
                   {
-                    title: "For Fintechs",
-                    description: "Infrastructure for fintech platforms",
-                    href: "/products/fintechs",
-                    icon: "/NavbarIcons/Fintech.svg",
-                    nestedItems: [
-                      {
-                        title: "About",
-                        description: "Learn about our fintech solutions",
-                        href: "/products/fintechs/about",
-                      },
-                      {
-                        title: "How It Works",
-                        description: "Understand how our platform works",
-                        href: "/products/fintechs/how-it-works",
-                      },
-                      {
-                        title: "Risk and Control",
-                        description: "Risk management and control features",
-                        href: "/products/fintechs/risk-and-control",
-                      },
-                      {
-                        title: "Outcomes",
-                        description: "Results and outcomes you can expect",
-                        href: "/products/fintechs/outcomes",
-                      },
-                    ],
-                  },
-                ],
-              },
-            ]}
-            pathname={pathname}
-          />
-
-          {/* Use Cases Dropdown */}
-          <NavDropdown
-            title="Use Cases"
-            showCategories={true}
-            items={[
-              {
-                category: "Use Cases",
-                subItems: [
-                  {
-                    title: "For Business",
-                    description: "Use cases for business applications",
-                    href: "/use-cases/business",
-                    icon: "/NavbarIcons/Bank.svg",
-                  },
-                  {
                     title: "For Fintech",
-                    description: "Use cases for fintech platforms",
-                    href: "/use-cases/fintech",
+                    description: "Fintech use cases and solutions",
+                    href: "/products/fintechs/about",
                     icon: "/NavbarIcons/Fintech.svg",
                   },
                 ],

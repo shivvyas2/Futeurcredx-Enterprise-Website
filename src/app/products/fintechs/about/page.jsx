@@ -1,6 +1,7 @@
 import H1 from "@/common/component/element/H1";
 import Button from "@/common/component/element/Button";
 import Image from "next/image";
+import { OutlineCards } from "@/common/component/element/OutlineCards";
 
 export const metadata = {
   title: "For Fintechs - About - FuteurCredX",
@@ -65,6 +66,9 @@ export default function ForFintechsPage() {
           </div>
         </div>
       </section>
+
+      {/* OUTLINE CARDS SECTION */}
+      <OutlineCards />
 
       {/* THE INDUSTRY CONTRADICTION */}
       <section className="w-full max-w-[1600px] px-4 sm:px-6 lg:px-10 py-12 sm:py-16 lg:py-20 border-t border-neutral-200 bg-neutral-50">
